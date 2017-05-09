@@ -1,91 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>The Herald - The Ultimate Orientation Guide</title>
-  <meta name="description" content="The Herald - Welcome to my Stack">
-  <meta name="Ken_Mbuki" content="Orientation Guide">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" src="ui.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Ken Mbuki" content="">
+
+    <title>The Herald - Orientation Guide</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css">
+    <link href="css/heroic-features.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="sidebar">
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">The Herald - Orientation Guide</a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">The Herald - Orientation Guide</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about.html">About the guide</a>
+                    </li>
+                    <li>
+                        <a href="topics.html">Topics</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <h1> > Welcome!</h1>
+            <p>It's easy to tell someone to solve a real world problem, but still that doesn't tell them how to about it.
+             So what I try to do here is to give a good overview, list of tools and languages to use.</p>
+            <p><a class="btn btn-primary btn-large">View Topics</a></p>
+        </header>
+        <hr>
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Topics Preview</h3>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Page Features -->
+        <div class="row text-center">
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="images/octocat.png" alt="">
+                    <div class="caption">
+                        <h3>Git Basics</h3>
+                        <p>By the end of this you should be knowing the very minimum set of commands for everyday git use</p>
+                        <br>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </div>
 
-    <div class="jumbotron">
-        <div class="container">
-            <p>This is an overview of the things you need to learn in order to catch up with our skills stack.</p>
-            <h2>Git:</h2>
-                <h3>Task description:</h3>
-                <p>By the end of this you should be knowing the very minimum set of commands for everyday git use</p>
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="images/python.png" alt="">
+                    <div class="caption">
+                        <h3>Python</h3>
+                        <p>This introduces you to Python’s features style and practical appication in real world.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-                <h3>References:</h3>
-                    - http://devdocs.io/git/
-                    - https://git-scm.com/documentation
-                    -
-
-                <h3>Tasks:</h3>
-                    - Create Repo
-                    - Clone
-                    - Commit / Push
-                    - Pull Request
-                    - Merge
-
-            <h2>Python:</h2>
-                <h3>Task description:</h3>
-                <p>This aims at introducing many of Python’s most noteworthy features, and will give you a good idea
-                of the language’s flavor and style.</p>
-
-                <h3>References:</h3>
-                    - https://python.swaroopch.com/
-                    - https://learnpythonthehardway.org/book/
-                    - https://www.learnpython.org/
-                    - http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/
-
-                <h3>Tasks:</h3>
-                    - Scripts
-
-            <h2>Django</h2>
-                <h3>Task Description:</h3>
-                <p>This introduces you to Django which is a widely-used Python web application framework with a "batteries-included" philosophy. The principle behind batteries-included is that the common functionality for building web applications should come with the framework instead of as separate libraries.</p>
-
-                <h3>References:</h3>
-                    - https://www.djangoproject.com/start/ (6 Part Tutorial)
-                    - https://tutorial.djangogirls.org/en/django/
-
-                <h3>Tasks:</h3>
-                     - Voting app
-
-
-            <h2>Angular:</h2>
-                <h3>Task Description:</h3>
-                <p>Here we shall get to learn  about AngularJS which is a JavaScript framework that is used for making rich, extensible web applications. It runs on plain JavaScript and HTML, so you don't need any other dependencies to make it work, and it is CSS-agnostic so you can use whatever CSS framework/methodology you want when designing your Angular application.</p>
-
-                <h3>References:</h3>
-                    - http://www.learn-angular.org/#!/lessons/the-essentials
-                    - https://thinkster.io/a-better-way-to-learn-angularjs
-
-                <h3>Tasks:</h3>
-                     - To Do app
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="images/django.png" alt="">
+                    <div class="caption">
+                        <h3>Django</h3>
+                        <p> This introduces you to python web framework with a "batteries-included" philosophy.</p>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="images/angular.png" alt="">
+                    <div class="caption">
+                        <h3>Angular</h3>
+                        <p>Introduces you to a JavaScript framework used for making rich, extensible web applications</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- /.row -->
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Ken Mbuki - May,2017</p>
+                </div>
+            </div>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; Ken Mbuki, May 2017</p>
-    </footer>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
