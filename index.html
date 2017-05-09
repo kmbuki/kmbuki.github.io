@@ -1,69 +1,95 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Herald - Orientation Guide</title>
+  <meta name="description" content="The Herald - Welcome to my Stack">
+  <meta name="Ken_Mbuki" content="Orientation Guide">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand pull-right" href="https://twitter.com/Ken_Mbukit">
-        <i class="fa fa-twitter" aria-hidden="true"></i>Find me on Twitter</a>
-      <a class="navbar-brand" href="#">Masomo Ya Developer</a>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="password" placeholder="Password" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Sign in</button>
+            </form>
+        </div>
     </div>
-  </div>
 </nav>
-<p>This is an overview of the things you need to learn in order to catch up with our skills stack.</p>
 
-<h2>Git:</h2>
-    <h3>Task description:</h3>
-    <p>By the end of this you should be knowing the very minimum set of commands for everyday git use</p>
+<div class="jumbotron">
+    <div class="container">
+        <p>This is an overview of the things you need to learn in order to catch up with our skills stack.</p>
+        <h2>Git:</h2>
+            <h3>Task description:</h3>
+            <p>By the end of this you should be knowing the very minimum set of commands for everyday git use</p>
 
-    <h3>References:</h3>
-        - http://devdocs.io/git/
-        - https://git-scm.com/documentation
-        -
+            <h3>References:</h3>
+                - http://devdocs.io/git/
+                - https://git-scm.com/documentation
+                -
 
-    <h3>Tasks:</h3>
-        - Create Repo
-        - Clone
-        - Commit / Push
-        - Pull Request
-        - Merge
+            <h3>Tasks:</h3>
+                - Create Repo
+                - Clone
+                - Commit / Push
+                - Pull Request
+                - Merge
 
-<h2>Python:</h2>
-    <h3>Task description:</h3>
-    <p>This aims at introducing many of Python’s most noteworthy features, and will give you a good idea
-    of the language’s flavor and style.</p>
+        <h2>Python:</h2>
+            <h3>Task description:</h3>
+            <p>This aims at introducing many of Python’s most noteworthy features, and will give you a good idea
+            of the language’s flavor and style.</p>
 
-    <h3>References:</h3>
-        - https://python.swaroopch.com/
-        - https://learnpythonthehardway.org/book/
-        - https://www.learnpython.org/
-        - http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/
+            <h3>References:</h3>
+                - https://python.swaroopch.com/
+                - https://learnpythonthehardway.org/book/
+                - https://www.learnpython.org/
+                - http://python-guide-pt-br.readthedocs.io/en/latest/intro/learning/
 
-    <h3>Tasks:</h3>
-        - Scripts
+            <h3>Tasks:</h3>
+                - Scripts
 
-<h2>Django</h2>
-    Task Description:
-    This introduces you to Django which is a widely-used Python web application framework with a "batteries-included" philosophy. The principle behind batteries-included is that the common functionality for building web applications should come with the framework instead of as separate libraries.
+        <h2>Django</h2>
+            Task Description:
+            This introduces you to Django which is a widely-used Python web application framework with a "batteries-included" philosophy. The principle behind batteries-included is that the common functionality for building web applications should come with the framework instead of as separate libraries.
 
-    References:
-        - https://www.djangoproject.com/start/ (6 Part Tutorial)
-        - https://tutorial.djangogirls.org/en/django/
+            References:
+                - https://www.djangoproject.com/start/ (6 Part Tutorial)
+                - https://tutorial.djangogirls.org/en/django/
 
-    Tasks:
-         - Voting app
+            Tasks:
+                 - Voting app
 
 
-Angular:
-    Task Description:
-    Here we shall get to learn  about AngularJS which is a JavaScript framework that is used for making rich, extensible web applications. It runs on plain JavaScript and HTML, so you don't need any other dependencies to make it work, and it is CSS-agnostic so you can use whatever CSS framework/methodology you want when designing your Angular application.
+        Angular:
+            Task Description:
+            Here we shall get to learn  about AngularJS which is a JavaScript framework that is used for making rich, extensible web applications. It runs on plain JavaScript and HTML, so you don't need any other dependencies to make it work, and it is CSS-agnostic so you can use whatever CSS framework/methodology you want when designing your Angular application.
 
-    References:
-        - http://www.learn-angular.org/#!/lessons/the-essentials
-        - https://thinkster.io/a-better-way-to-learn-angularjs
+            References:
+                - http://www.learn-angular.org/#!/lessons/the-essentials
+                - https://thinkster.io/a-better-way-to-learn-angularjs
 
-    Tasks:
-         - To Do app
-
+            Tasks:
+                 - To Do app
+    </div>
+</div>
 </body>
 </html>
